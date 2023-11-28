@@ -1,67 +1,84 @@
+/* Updated CSS code */
 
-.logo{
-	position: absolute;
-	margin-left: 20px;
-	font-family: 'Roboto', sans-serif;
+.logo {
+    position: absolute;
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
     font-size: 0.8em;
     top: 20px;
 }
-.logotext{
-	position: absolute;
-	margin-left: 65px;
-	top: 20px;
-	font-family: 'Roboto', sans-serif;
+
+.logotext {
+    position: absolute;
+    margin-left: 65px;
+    top: 20px;
+    font-family: 'Roboto', sans-serif;
     font-size: 0.8em;
     color: black;
 }
-.logotext:visited{
-	color: black;
-}
-.logotext:hover{
-	color: black;
-}
-.col{
-	font-family: 'Lato', sans-serif;
-	padding-right:80px; 
-	
-	
-}
-.head{
-	color: #1984f1;
-	font-family: 'Lato', sans-serif;
 
+.logotext:visited {
+    color: black;
 }
-.heading{
-	color: black;
-	border-bottom: 2px solid #1984f1;
+
+.logotext:hover {
+    color: black;
 }
+
+.col {
+    font-family: 'Lato', sans-serif;
+    padding-right: 80px;
+}
+
+.head {
+    color: #1984f1;
+    font-family: 'Lato', sans-serif;
+}
+
+.heading {
+    color: black;
+    border-bottom: 2px solid #1984f1;
+}
+
 table {
     /* make the border continuous (without gaps between columns) */
     border-collapse: collapse;
     margin-left: 14%;
     margin-top: 160px;
 }
-.heading2{
-	border-bottom:1px solid black;
+
+.heading2 {
+    border-bottom: 1px solid black;
 }
-.page{
-	position: absolute;
-	top: 70px;
-	margin-left: 36%;
-	color: black;
-	font-family: 'Lato', sans-serif;
+
+.page {
+    position: relative;
+    top: 93px;
+    margin-left: 36%;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    margin-top: 10px; /* Adjust the margin-top value as needed */
 }
-td{
-	padding: 10px;
+
+td {
+    padding: 10px;
 }
-.last{
-	color: #1984f1;
-	font-family: 'Lato', sans-serif;
+
+.last {
+    color: #1984f1;
+    font-family: 'Lato', sans-serif;
 }
-.last1 a{
-	font-family: 'Lato', sans-serif;
-	text-decoration: none;
+
+.last1 a {
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
 }
-.last1 a:hover{
-	text-decoration: underline;
+
+.last1 a:hover {
+    text-decoration: underline;
+}
+
+/* Add this to your existing CSS code */
+.table-container {
+    margin-top: 20px;
 }
